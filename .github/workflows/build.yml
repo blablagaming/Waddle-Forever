@@ -10,6 +10,8 @@ jobs:
 
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        ref: dev #
 
     - name: Install Node.js, NPM and Yarn
       uses: actions/setup-node@v3
@@ -36,6 +38,8 @@ jobs:
 
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        ref: dev #
 
     - name: Install Node.js, NPM and Yarn
       uses: actions/setup-node@v3
@@ -62,7 +66,8 @@ jobs:
 
     - name: Checkout repository
       uses: actions/checkout@v4
-
+      with:
+        ref: dev #
     - name: Install Node.js, NPM and Yarn
       uses: actions/setup-node@v3
       with:
